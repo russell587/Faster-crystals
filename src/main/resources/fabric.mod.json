@@ -1,18 +1,18 @@
 {
 	"schemaVersion": 1,
-	"id": "modid",
+	"id": "fastercrystals",
 	"version": "${version}",
-	"name": "Example Mod",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"name": "Faster Crystals",
+	"description": "A lightweight Fabric mod for crystal PvP. Instantly places crystals on obsidian/bedrock with zero delay using direct packets. Allows 2 attacks per tick (1 if ping <50ms) on crystals by removing entity client-side after first hit.",
 	"authors": [
-		"Me!"
+		"russell587"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://github.com/russell587/Faster-crystals",
+		"sources": "https://github.com/russell587/Faster-crystals"
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/modid/icon.png",
+	"icon": "assets/fastercrystals/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
@@ -31,7 +31,7 @@
 	],
 	"depends": {
 		"fabricloader": ">=0.19.5",
-		"minecraft": "~26.3",
+		"minecraft": "~26.2",
 		"java": ">=25",
 		"fabric-api": "*"
 	}
